@@ -1,0 +1,43 @@
+.btn {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 21px 41px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: #FEDB3F;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #FFD517;
+  }
+
+  &--theme--transparent {
+    background: transparent;
+    color: #FFFFFF;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0;
+    margin-left: 10px;
+
+    &:hover {
+      color: #FEDB3F;
+      background: none;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}
+
+.form__btns {
+  margin-top: 29px;
+}
+
+.hero-btn {
+  width: 32%;
+}
