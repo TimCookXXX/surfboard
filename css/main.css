@@ -90,7 +90,7 @@ img {
 }
 
 .hero {
-  background: url(../../img/bg-section\ one.png) center top no-repeat, #1968B1;
+  background: url(../img/bg-section\ one.png) center top no-repeat, #1968B1;
   background-size: cover;
   -webkit-filter: drop-shadow(0rem 0.2222222222rem 0.2222222222rem rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0rem 0.2222222222rem 0.2222222222rem rgba(0, 0, 0, 0.25));
@@ -418,12 +418,12 @@ img {
 }
 
 .order-section {
-  background: url(../../img/bg_form.png) center top no-repeat;
+  background: url(../img/bg_form.png) center top no-repeat;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .order-section {
-    background: url(../../img/bg-form-tablets.png) center top no-repeat;
+    background: url(../img/bg-form-tablets.png) center top no-repeat;
   }
 }
 
@@ -436,7 +436,7 @@ img {
 }
 
 .map-section {
-  background: url(../../img/map.png) center top no-repeat;
+  background: url(../img/map.png) center top no-repeat;
   background-size: cover;
 }
 
@@ -542,7 +542,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../img/Combined shape 2204.png");
+  content: url("../img/Combined shape 2204.png");
   position: absolute;
   top: 3.2777777778rem;
   right: 0;
@@ -909,7 +909,7 @@ img {
   border-radius: 0.2222222222rem;
 }
 .radio--checkbox .radio__visible:before {
-  background: url(../../img/checked.png) center center no-repeat;
+  background: url(../img/checked.png) center center no-repeat;
 }
 
 .radio__elem {
