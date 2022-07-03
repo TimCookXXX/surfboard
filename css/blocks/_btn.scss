@@ -1,0 +1,54 @@
+.hero__button {
+  font-weight: 800;
+  font-size: rem(16px);
+  line-height: rem(18px);
+  padding: rem(21px) rem(41px);
+  text-transform: uppercase;
+  border-radius: rem(100px);
+  background: #FEDB3F;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: .3s;
+
+
+  @include phones {
+   font-size: rem(19px);
+   line-height: rem(18px);
+   padding: rem(21px) rem(36px);
+  }
+
+  &:hover {
+    background: #FFD517;
+  }
+
+  &--theme--transparent {
+    background: transparent;
+    color: #FFFFFF;
+    text-transform: none;
+    font-weight: 400;
+    font-size: rem(18px);
+    line-height: rem(22px);
+    padding: 0;
+    margin-left: rem(10px);
+
+    &:hover {
+      color: #FEDB3F;
+      background: none;
+      font-weight: 400;
+      font-size: rem(18px);
+      line-height: rem(22px);
+    }
+  }
+}
+
+.form__btns {
+  margin-top: rem(29px);
+  display: flex;
+  justify-content: center;
+
+  @include tablets {
+    margin-top: rem(42px);
+  }
+}

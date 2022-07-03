@@ -1,0 +1,67 @@
+.logo {
+  width: rem(56px);
+  height: rem(40px);
+}
+
+.menu {
+  @include tablets {
+    display: none;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu__link {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.menu__item {
+  margin-right: rem(22px);
+  margin-bottom: rem(10px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @include tablets {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.contacts__phone {
+  font-size: rem(22px);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+
+  @include tablets {
+    display: none;
+  }
+}
+
+.contacts__phone-icon {
+  flex-shrink: 0;
+}
+
+.contacts__phone-icon-elem {
+  width: rem(13px);
+  height: rem(14px);
+  margin-right: rem(6px);
+}
+
+.contacts__phone-text {
+  white-space: nowrap;
+}
