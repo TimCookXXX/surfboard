@@ -1,0 +1,28 @@
+.team--version--mobile {
+  display: none;
+
+  @include tablets {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+.team__item {
+  @include tablets {
+    margin-right: 0;
+    flex: inherit;
+  }
+}
+
+
+.team__title {
+  @include tablets {
+    margin-bottom: rem(14px);
+  }
+
+  @include phones {
+    margin-bottom: rem(14px);
+  }
+}

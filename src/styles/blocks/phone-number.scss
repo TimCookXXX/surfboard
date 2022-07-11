@@ -1,0 +1,16 @@
+.phone-nubmer {
+  display: flex;
+  align-items: center;
+}
+
+.phone__number--icon {
+  margin-right: rem(8px);
+  width: rem(12px);
+  height: rem(12px);
+}
+
+.phone-number__text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 21px;
+}

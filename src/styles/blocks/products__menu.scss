@@ -1,0 +1,93 @@
+.products-menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+}
+
+.products-menu__item {
+  display: flex;
+
+  &.active {
+    .products-menu__content {
+      display: block;
+      max-width: 532px;
+    }
+  }
+}
+
+.products-menu__title {
+  position: relative;
+  width: 102px;
+  padding: 0;
+
+  @include phones {
+    width: 90px;
+  }
+}
+
+.products-menu-section__title {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+
+  @include tablets {
+    top: 97px;
+    left: 23px;
+  }
+}
+
+.products-menu__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.products-menu__content {
+  background: rgba(51, 53, 55, 0.9);
+  width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: width .7s;
+}
+
+.products-menu__container {
+  padding: 31px 89px 45px 38px;
+
+  @include tablets {
+    padding: 41px 52px 45px 38px;
+  }
+
+  @include phones {
+    padding: 12px;
+  }
+}
+
+.products-menu__close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  border: none;
+  background: transparent;
+}
+
+.products-menu__text {
+  font-weight: 700;
+  font-size: 48px;
+  position: absolute;
+  line-height: 58px;
+  bottom: 0;
+  left: 50%;
+  transform: rotate(-90deg) translateY(-50%) translateX(-8%);
+  transform-origin: 0 0;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.products-menu__content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
