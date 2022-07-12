@@ -1208,8 +1208,7 @@ img {
   height: 5.05556rem; }
 
 .product__container {
-  display: flex;
-  padding-bottom: 6rem; }
+  display: flex; }
   @media screen and (max-width: 768px) {
     .product__container {
       flex-direction: column;
