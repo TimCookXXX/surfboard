@@ -714,6 +714,7 @@ img {
       display: block; } }
 
 .btn__close {
+  fill: white;
   width: 1.11111rem;
   height: 1.11111rem; }
 
